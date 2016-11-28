@@ -1,0 +1,18 @@
+import ToolKit.Account;
+
+public class Excercise11_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account account = new Account("George", 1122, 1000);
+        account.setAnnualInterestRate(1.5);
+        account.deposit(30);
+        account.deposit(40);
+        account.deposit(50);
+        account.withdraw(5);
+        account.withdraw(4);
+        account.withdraw(2);
+        System.out.println(account);
+	}
+
+}
